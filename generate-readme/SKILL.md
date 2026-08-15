@@ -1,6 +1,6 @@
 ---
 name: generate-readme
-description: Generate or update README.md and docs/ documentation for this project. Use when writing or revising the root README, a package-level README, or any file inside docs/. Applies Jay-1409 modular documentation standards.
+description: Generate or update README.md and docs/ documentation for a project. Use when writing or revising the root README, a package-level README, or any file inside docs/. Applies Jay-1409 modular documentation standards.
 ---
 
 # Generate README
@@ -38,16 +38,6 @@ Create only the files that are relevant to the current scope. Do not create plac
 - Use code blocks for every command, file path, and code snippet.
 - All local file links must be relative (e.g., `./docs/api.md`).
 - Do not copy internal code comments verbatim into documentation.
-
-## Project-specific context
-
-This project is the PlayPower Labs Airbnb listing clone. When documenting:
-
-- The backend lives in `backend/` and exposes read-only endpoints under `/api`.
-- The frontend lives in `frontend/` and is a React app.
-- Static assets are served from `/assets` by the backend.
-- The Bruno collection in `Bruno/` is the manual API testing tool.
-- Do not document authentication, payments, persistence, or search — they are out of scope.
 
 ## Completion gate
 
