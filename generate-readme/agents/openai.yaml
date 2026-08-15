@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate README"
+  short_description: "Create clear, modular project documentation"
+  default_prompt: "Use $generate-readme to create or update this project's README.md and relevant docs/ files."
