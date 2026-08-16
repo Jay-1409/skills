@@ -27,6 +27,7 @@ Separate detailed content into focused files:
 | `docs/architecture.md` | Core modules, layer responsibilities, data flow, concurrency model. Link to diagrams. |
 | `docs/api.md` | Every HTTP endpoint: method, path, request format, parameters table, example request, success and error responses. |
 | `docs/contributing.md` | Setup, branch conventions, testing commands, PR checklist. |
+| `docs/benchmarking.md` | A guide on how to benchmark the project if benchmarking scripts exists. |
 
 Create only the files that are relevant to the current scope. Do not create placeholder files.
 
